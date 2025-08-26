@@ -1,0 +1,14 @@
+{
+  "name": "ma-boutique-pro",
+  "version": "1.0.0",
+  "description": "Boutique e-commerce compl�te avec panier et catalogue produits",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx serve .",
+    "deploy": "gh-pages -d ."
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "serve": "^14.0.0"
+  }
+}
